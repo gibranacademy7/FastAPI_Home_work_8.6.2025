@@ -1,0 +1,8 @@
+pip install fastapi uvicorn
+uvicorn main:app --reload
+
+pip install spacy
+python -m spacy download en_core_web_sm
+
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/redoc
